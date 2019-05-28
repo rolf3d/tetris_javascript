@@ -2,8 +2,26 @@
 <htnl>
 <head>
     <title>Tetris demo</title>
+    <style>
+        body{
+            background: #AA7739;
+            color: #fff;
+            text-align: center;
+        }
+        #score{
+            font-size: 30px;
+        }
+        canvas{
+            border: solid 2px #fff;
+            border-radius: 8px;
+            height: 80vh;
+        }
+        
+    </style>
 </head>
 <body>
+    <p>q and w for rotate. Arrow keys for moving.</p>
+    Score<div id="score"></div>
     <canvas id="tetris" width="240" height="400" ></canvas>
     <script src="tetris.js"></script>
 </body>
